@@ -7,7 +7,6 @@ Objective of this project is to provide all the required resources for the GenC 
 <details>
 <summary>JavaScript</summary>
 
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
 - [Beginners Series to JavaScript](https://learn.microsoft.com/en-us/shows/beginners-series-to-javascript/) 
 - [FreeCodeCamp.org](https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/)
 - [learn-js](https://www.learn-js.org/)
@@ -16,7 +15,7 @@ Objective of this project is to provide all the required resources for the GenC 
 <details>
 <summary>TypeScript</summary>
 
-- [Learn TypeScript from Scratch udemy](https://cognizant.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/15067178?start=0#overview )
+- [Learn TypeScript from Scratch udemy](https://cognizant.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/15067178?start=0#overview ) :dart:
 - [Learn TypeScript from Scratch](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
 - [Learn TypeScript - The Ultimate Beginners Guide](https://www.freecodecamp.org/news/learn-typescript-beginners-guide/)
 </details>
@@ -34,7 +33,7 @@ Objective of this project is to provide all the required resources for the GenC 
 <details> 
 <summary>Cypress</summary>
 
-- [Cypress Udemy](https://cognizant.udemy.com/course/cypress-io-master-class/learn/lecture/21338578#overview)
+- [Cypress Udemy](https://cognizant.udemy.com/course/cypress-io-master-class/learn/lecture/21338578#overview) :dart:
 - [Cypress Documentation](https://docs.cypress.io/guides/overview/why-cypress)
 - [Introduction to Cypress](https://testautomationu.applitools.com/cypress-tutorial/)
 - [Cypress with TypeScript](https://testautomationu.applitools.com/cypress-with-typescript/)
@@ -74,7 +73,7 @@ Objective of this project is to provide all the required resources for the GenC 
 <details> 
 <summary>Webdriver IO</summary>
 
-- [WebdriverIO Udemy](https://cognizant.udemy.com/course/appium-webdriverio-mobile-automation/learn/lecture/29564184#overview)
+- [WebdriverIO Udemy](https://cognizant.udemy.com/course/appium-webdriverio-mobile-automation/learn/lecture/29564184#overview) :dart:
 - [WebdriverIO](https://webdriver.io/)
 - [Mobile Selectors](https://webdriver.io/docs/selectors#mobile-selectors)
 - [Appium.io](https://appium.io/)

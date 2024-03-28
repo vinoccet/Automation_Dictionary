@@ -29,7 +29,7 @@ Recording will be shared once after receiving the VDI access
 <details>
 <summary>TypeScript</summary>
 
-- [Learn TypeScript from Scratch udemy](https://cognizant.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/15067178?start=0#overview ) :dart:
+- [Learn TypeScript from Scratch udemy](https://cognizant.udemy.com/course/typescript-the-complete-developers-guide/ ) :dart:
 - [Learn TypeScript from Scratch](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
 - [Learn TypeScript - The Ultimate Beginners Guide](https://www.freecodecamp.org/news/learn-typescript-beginners-guide/)
 </details>
@@ -47,7 +47,7 @@ Recording will be shared once after receiving the VDI access
 <details> 
 <summary>Cypress</summary>
 
-- [Cypress Udemy](https://cognizant.udemy.com/course/cypress-io-master-class/learn/lecture/21338578#overview) :dart:
+- [Cypress Udemy](https://cognizant.udemy.com/course/cypress-io-master-class/) :dart:
 - [Cypress Documentation](https://docs.cypress.io/guides/overview/why-cypress)
 - [Introduction to Cypress](https://testautomationu.applitools.com/cypress-tutorial/)
 - [Cypress with TypeScript](https://testautomationu.applitools.com/cypress-with-typescript/)
@@ -87,7 +87,7 @@ Recording will be shared once after receiving the VDI access
 <details> 
 <summary>Webdriver IO</summary>
 
-- [WebdriverIO Udemy](https://cognizant.udemy.com/course/appium-webdriverio-mobile-automation/learn/lecture/29564184#overview) :dart:
+- [WebdriverIO Udemy](https://cognizant.udemy.com/course/appium-webdriverio-mobile-automation/) :dart:
 - [WebdriverIO](https://webdriver.io/)
 - [Mobile Selectors](https://webdriver.io/docs/selectors#mobile-selectors)
 - [Appium.io](https://appium.io/)
@@ -247,6 +247,30 @@ Recording will be shared once after receiving the VDI access
 - [Learn Git Branching](https://learngitbranching.js.org/)
 - [Git cheat sheet download](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Git Actions Tutorial for CICD](https://www.testmo.com/guides/github-actions-test-automation)
+
+</details>
+
+ # AWS Certification
+
+<details>
+<summary>AWS Certification Courses </summary>
+
+- [Course: [NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02](https://cognizant.udemy.com/course/aws-certified-cloud-practitioner-new/) :dart:
+- [Course: AWS Certified Cloud Practitioner (CLF-C02) Exam Training](https://cognizant.udemy.com/course/aws-certified-cloud-practitioner-training-course/) :dart:
+- [Course: AWS Certified Cloud Practitioner Practice Exams CLF-C02](https://cognizant.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-c) :dart:
+- [Course: 6 Practice Exams | AWS Certified Cloud Practitioner CLF-C02](https://cognizant.udemy.com/course/practice-exams-aws-certified-cloud-practitioner) :dart:
+
+</details>
+
+ # Artificial Intelligence
+
+<details>
+<summary>GEN AI Courses </summary>
+
+- [machine-learning-for-absolute-beginners-level-1](https://cognizant.udemy.com/course/machine-learning-for-absolute-beginners-level-1/) :dart:
+- [machine-learning-for-absolute-beginners-level-2](https://cognizant.udemy.com/course/machine-learning-for-absolute-beginners-level-2/) :dart:
+- [machine-learning-for-absolute-beginners-level-3](https://cognizant.udemy.com/course/machine-learning-for-absolute-beginners-level-3/) :dart:
+
 
 </details>
 

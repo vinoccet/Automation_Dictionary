@@ -1,0 +1,12 @@
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.txt
+.DS_Store
+
+# Other output folders
+/target/
+/bin/
+/test-output/
+/logs/
+/reports/

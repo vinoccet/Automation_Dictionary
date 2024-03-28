@@ -5,7 +5,7 @@ Objective of this project is to provide all the required resources for the onboa
 # Steps / Procedure to be followed
 
 - All the Resources need to complete the below HC Assessment in ‘Cognizant learn’ app (HealthCare industry - KNOWLEDGE BASED ASSESSMENT 101-BASICS). 
-- Mandatory to comlete all the courses which are marked as :dart:
+- Mandatory to complete all the courses which are marked as :dart: Note: check with you trainer or mentor
 - Make sure Resources are coordinating with HCM supervisor and completing the Skill profiling - 100% 
 - Make sure both Cognizant and Cigna mandatory trainings are completed by the new resources, if any 
 - Make sure Resources are having the required access as part of RBAC (eg: JIRA and other project - related group access for their LAN ID) 

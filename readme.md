@@ -1,6 +1,6 @@
 # Automation Dictionary
 
-Objective of this project is to provide all the required resources for the GenC onboarded resources and also a good reference one stop automation guide for existing resources.
+Objective of this project is to provide all the required resources for the onboarded resources and also a good reference one stop automation guide for existing resources.
 
 # Steps / Procedure to be followed
 
@@ -14,9 +14,7 @@ Objective of this project is to provide all the required resources for the GenC 
 - Mobile KT sessions covering Functional and Automation testing has been completed.
 Recording will be shared once after receiving the VDI access
 
----
-
-### :woman_technologist: Happy Learning : <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+# :woman_technologist: Happy Learning <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
 # Programming languages 
 

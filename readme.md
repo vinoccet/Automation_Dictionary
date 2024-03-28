@@ -1,6 +1,22 @@
-# Automation Repository
+# Automation Dictionary
 
 Objective of this project is to provide all the required resources for the GenC onboarded resources and also a good reference one stop automation guide for existing resources.
+
+# Steps / Procedure to be followed
+
+- All the Resources need to complete the below HC Assessment in ‘Cognizant learn’ app (HealthCare industry - KNOWLEDGE BASED ASSESSMENT 101-BASICS). 
+- Mandatory to comlete all the courses which are marked as :dart:
+- Make sure Resources are coordinating with HCM supervisor and completing the Skill profiling - 100% 
+- Make sure both Cognizant and Cigna mandatory trainings are completed by the new resources, if any 
+- Make sure Resources are having the required access as part of RBAC (eg: JIRA and other project - related group access for their LAN ID) 
+- Make sure supervisors pull resources under them appropriately and complete the goal setting in 1C 
+- Supervisor needs to check all the above activities are done by their subordinates.
+- Mobile KT sessions covering Functional and Automation testing has been completed.
+Recording will be shared once after receiving the VDI access
+
+---
+
+### :woman_technologist: Happy Learning : <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
 # Programming languages 
 
@@ -253,22 +269,4 @@ Objective of this project is to provide all the required resources for the GenC 
 
 </details>
 
----
 
-### :hammer_and_wrench: Languages and Tools :
-<div>
-   <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="Typescript" **alt="Typescript" width="40" height="40"/>&nbsp;
-      <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="Javascript" **alt="Javascript" width="40" height="40"/>&nbsp;
-     <img src="https://github.com/devicons/devicon/blob/master/icons/cypressio/cypressio-original.svg"  title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-plain.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-
-  <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS" alt="AWS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" **alt="NodeJS" width="40" height="40"/>
-
-</div>
-
-<!-- 
-<details>
-<summary> </summary>
-</details> -->

@@ -73,8 +73,8 @@ const department=[
   
   console.log(employeeDepartments);*/
 
-  // another way 
- const combinedData = employees.forEach(employee => {
+  // using find method 
+ /*const combinedData = employees.forEach(employee => {
     const dept = department.find(d => d.id === employee.departmentId);
     return {
       employee,
@@ -84,6 +84,30 @@ const department=[
     };
   });
   
-  console.log(combinedData);
+  console.log(combinedData);*/
+
+
+
+// using the for each method
+console.log("USING FOR EACH METHOD :")
+  employees.forEach(emp => {
+    department.forEach(dept => {
+      if (emp.departmentId === dept.id) {
+        console.log(`Employee ID: ${emp.empid}, Department: ${dept.name}`);
+      }
+    });
+  });
+
+  // using for loop condition 
+console.log("USING FOR LOOP CONDITION :");
+  for (let i = 0; i < employees.length; i++) {
+    for (let j = 0; j < department.length; j++) {
+      if (employees[i].departmentId === department[j].id) {
+        console.log(`Employee ID: ${employees[i].empid}, Department: ${department[j].name}`);
+      }
+    }
+  }
+  
+  
 
 

@@ -57,9 +57,38 @@ const department=[
 
 
 
+// Using the find method
 
 employees.forEach(employee => {
     const firstName = employee.name.split(" ")[0];
     const dept = department.find(d => d.id === employee.departmentId);
     console.log(`First Name: ${firstName}, Department: ${dept?.name}`);
   });
+
+  // Using thr for each  method
+console.log("USING FOR LOOP CONDITION :");
+
+employees.forEach(emp => {
+    for (let j = 0; j < department.length; j++) {
+      if (emp.departmentId === department[j].id) {
+        const firstName = emp.name.split(' ')[0];
+        console.log(`First Name: ${firstName}, Department: ${department[j].name}`);
+      }
+    }
+  });
+
+  // using for loop method
+  
+  console.log("using for each method :");
+
+  employees.forEach(emp => {
+    department.forEach(dept => {
+      if (emp.departmentId === dept.id) {
+        const firstName = emp.name.split(' ')[0];
+        console.log(`First Name: ${firstName}, Department: ${dept.name}`);
+      }
+    });
+  });
+  
+
+  

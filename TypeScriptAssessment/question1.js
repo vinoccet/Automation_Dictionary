@@ -60,14 +60,33 @@ var employees = [
 });
 
 console.log(employeeDepartments);*/
-// another way 
-var combinedData = employees.forEach(function (employee) {
-    var dept = department.find(function (d) { return d.id === employee.departmentId; });
-    return {
-        employee: employee,
-        departmentName: dept === null || dept === void 0 ? void 0 : dept.name,
-        location: dept === null || dept === void 0 ? void 0 : dept.location,
-        skillsOrRewards: (dept === null || dept === void 0 ? void 0 : dept.skills) || (dept === null || dept === void 0 ? void 0 : dept.rewards)
-    };
+// using find method 
+/*const combinedData = employees.forEach(employee => {
+   const dept = department.find(d => d.id === employee.departmentId);
+   return {
+     employee,
+     departmentName: dept?.name,
+     location: dept?.location,
+     skillsOrRewards: dept?.skills || dept?.rewards
+   };
+ });
+ 
+ console.log(combinedData);*/
+// using the for each method
+console.log("USING FOR EACH METHOD :");
+employees.forEach(function (emp) {
+    department.forEach(function (dept) {
+        if (emp.departmentId === dept.id) {
+            console.log("Employee ID: ".concat(emp.empid, ", Department: ").concat(dept.name));
+        }
+    });
 });
-console.log(combinedData);
+// using for loop condition 
+console.log("USING FOR LOOP CONDITION :");
+for (var i = 0; i < employees.length; i++) {
+    for (var j = 0; j < department.length; j++) {
+        if (employees[i].departmentId === department[j].id) {
+            console.log("Employee ID: ".concat(employees[i].empid, ", Department: ").concat(department[j].name));
+        }
+    }
+}

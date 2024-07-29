@@ -55,8 +55,8 @@ const department=[
 // get the employee name and department name who got civil engineering skill
 
 
-
-const civilEngineeringDept = department.find(dept => dept.skills?.name === "civil engineering");
+// using the find method
+/*const civilEngineeringDept = department.find(dept => dept.skills?.name === "civil engineering");
 
 if (civilEngineeringDept) {
   const employee = employees.find(emp => emp.departmentId === civilEngineeringDept.id);
@@ -65,4 +65,30 @@ if (civilEngineeringDept) {
   } else {
     console.log("No employee found in the department with civil engineering skill.");
   }
-}
+}*/
+
+// using for loop 
+
+for (let i = 0; i < department.length; i++) {
+    if (department[i].skills && department[i].skills?.name === "civil engineering") {
+      for (let j = 0; j < employees.length; j++) {
+        if (employees[j].departmentId === department[i].id) {
+          console.log(`Employee Name: ${employees[j].name}, Department: ${department[i].name}`);
+        }
+      }
+    }
+  }
+
+  // USING FOR EACH METHOD 
+  console.log("USING FOR EACH METHOD ")
+
+  department.forEach(dept => {
+    if (dept.skills && dept.skills.name === "civil engineering") {
+      employees.forEach(emp => {
+        if (emp.departmentId === dept.id) {
+          console.log(`Employee Name: ${emp.name}, Department: ${dept.name}`);
+        }
+      });
+    }
+  });
+  

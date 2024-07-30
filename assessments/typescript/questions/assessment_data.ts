@@ -1,4 +1,4 @@
-const department=[
+export const department=[
     {
       id: 1,
       name: "Human Resources",
@@ -29,7 +29,7 @@ const department=[
     }
   ]
 
-  const employees=[
+  export const employees=[
     {
       empid: 101,
       name: "Alice Johnson",

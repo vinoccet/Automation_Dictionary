@@ -1,65 +1,19 @@
-import { departments, employees } from "./tasks";
-import { getAllDetails } from "./tasks";
+import { get_Q1_Q2_Details, get_Q3_Q4_details } from "./tasks";
 
-const Department: departments[] = [
-  {
-    id: 1,
-    name: "Human Resources",
-    location: "Building A",
-    skills: {
-      name: "communication",
-      proficiency: "100",
-    },
-  },
-  {
-    id: 2,
-    name: "Engineering",
-    location: "Building B",
-    skills: {
-      name: "civil engineering",
-      proficiency: "50",
-    },
-  },
-  {
-    id: 3,
-    name: "Marketing",
-    location: "Building C",
-    rewards: {
-      name: "MBA in marketing",
-      points: "10",
-    },
-  },
-];
-const Employee: employees[] = [
-  {
-    empid: 101,
-    name: "Alice Johnson",
-    departmentId: 1,
-    position: "HR Manager",
-  },
-  {
-    empid: 102,
-    name: "Bob Smith",
-    departmentId: 2,
-    position: "Software Engineer",
-  },
-  {
-    empid: 103,
-    name: "Charlie Brown",
-    departmentId: 3,
-    position: "Marketing Specialist",
-  },
-];
-
-const task = new getAllDetails(Employee, Department);
+const task1 = new get_Q1_Q2_Details();
+const task2 = new get_Q3_Q4_details();
 //Question 1
-console.log(task.getAllEmpId());
+console.log("Question 1");
+task1.getAllEmpId();
 
 //Question 2
-console.log(task.getFirstName());
+console.log("Question 2");
+task1.getFirstName();
 
 //Question 3
-console.log(task.getPosition());
+console.log("Question 3");
+task2.getPosition();
 
 //Question 4
-console.log(task.getCivilEmpName());
+console.log("Question 4");
+task2.getCivilEmpName();

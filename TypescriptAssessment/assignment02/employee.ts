@@ -1,15 +1,10 @@
+import { injectable } from "inversify";
+import 'reflect-metadata';
 import { employees, department } from "./data";
-export interface Iemployee{
-    getAllEmployeeIds():number[];
-    getAllEmployeeFirstnames():string[];
-    getAllEmployeePositions():string[];
-    getDepartmentIdByEmpId(empid:number):number;
-    getDepartmentIdByFirstname(name:string):number;
-    getDepartmentIdByPosition(position:string):number;
-    getFirstNameByPosition(position:string):string;
-}
+import { Iemployee } from "./interfaces";
 
-export class Cemployee implements Iemployee{
+@injectable()
+export class Employee implements Iemployee{
     getAllEmployeeIds():number[]{
        return employees.map((empobj)=>empobj.empid);
     }

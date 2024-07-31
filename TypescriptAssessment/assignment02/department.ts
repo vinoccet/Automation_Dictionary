@@ -1,18 +1,11 @@
+import { injectable } from 'inversify';
+import 'reflect-metadata';
 import { employees, department } from "./data";
-import { Cemployee } from "./employee";
+import { Employee } from "./employee";
+import { Idepartment } from "./interfaces";
 
-export interface Idepartment{
-  getAllSkills():string[];
-  getDepartmentIdBySkill(skill:string):number;
-  getDepatmentNameBySkill(skill:string):string;
-  getDepartmentNameByEmpId(depid:number):string;
-  getDepartmentNameByFirstname(depid:number):string;
-  getDepartmentNameByPosition(depid:number):string;
-  print_Employeename_Departmentname_BySkill(skill:string):void;
-}
-
-
-export class Cdepartment  implements Idepartment{
+@injectable()
+export class Department  implements Idepartment{
     getAllSkills():string[]{
        return department.map((depobj)=>depobj.skills?.name??"");
     }
@@ -50,13 +43,13 @@ export class Cdepartment  implements Idepartment{
         return department.find((depobj)=>depobj.id===depid)?.name??"";
     }   
     print_Employeename_Departmentname_BySkill(skill:string):void{ 
-               if(skill.length>0){
+               
                 //let department_id=this.getDepartmentIdBySkill(skill);
                 let department_name=this.getDepatmentNameBySkill(skill);
                 let employee_name=this.getEmployeeNameBySkill(skill);
                 //let employee_name=employees.filter((empobj)=>department_id===empobj.departmentId).map((empobj)=>empobj.name)
                 //let employee_name=employees.find((empobj)=>department_id===empobj.departmentId)?.name??"";
                 console.log(`${employee_name}---->${ department_name}`)         
-         }
+         
         }
 }

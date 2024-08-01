@@ -1,6 +1,9 @@
+import { injectable } from "inversify";
+import "reflect-metadata";
 import { employees } from "./data";
 import { IEmployee } from "./interface";
 
+@injectable() //got to import first 2 line
 export class CEmployee implements IEmployee {
   getAllEmpId(): number[] {
     return employees.map((emp) => emp.empid);

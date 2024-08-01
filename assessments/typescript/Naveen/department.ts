@@ -1,6 +1,9 @@
+import { injectable } from "inversify";
+import "reflect-metadata";
 import { department } from "./data";
 import { IDepartment } from "./interface";
 
+@injectable()
 export class CDepartment implements IDepartment {
   getDeptNameById(deptId: number): string {
     return department.find((emp) => emp.id === deptId)?.name ?? "";

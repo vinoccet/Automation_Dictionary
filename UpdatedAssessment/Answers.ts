@@ -1,18 +1,24 @@
+import { Container } from "inversify";
 import { Department } from "./departmentClass";
 import { employeeclass } from "./employeeClass";
 import { deptInterface, empInterface } from "./interfaces";
 import { employees, department } from "./questions";
+import { container } from "./container";
+import { TYPES } from "./types";
 
-const employee:empInterface=new employeeclass()
-const departmentobj:deptInterface=new Department()
+//const employee:empInterface=new employeeclass()
+
+const employeeInversify:empInterface=container.get<empInterface>(TYPES.employeeclass);
+//const departmentobj:deptInterface=new Department()
+const departmentInversify:deptInterface=container.get<deptInterface>(TYPES.departmentClass);
 
 // question 1
 // get all emp id and print the respective department name
-employee.getAllEmpIds().forEach(empid=>console.log(`${empid}, ${departmentobj.getDepartmentNameById(employee.getDepartmentIdByEmpId(empid))}`))
+employeeInversify.getAllEmpIds().forEach(empid=>console.log(`${empid}, ${departmentInversify.getDepartmentNameById(employeeInversify.getDepartmentIdByEmpId(empid))}`))
 
-employee.getAllEmpIds().forEach(empid=>{
-    const departmentId=employee.getDepartmentIdByEmpId(empid)
-    const departmentName=departmentobj.getDepartmentNameById(departmentId)
+employeeInversify.getAllEmpIds().forEach(empid=>{
+    const departmentId=employeeInversify.getDepartmentIdByEmpId(empid)
+    const departmentName=departmentInversify.getDepartmentNameById(departmentId)
     console.log(`departmentname: ${departmentName}`)
 })
 
@@ -20,10 +26,10 @@ employee.getAllEmpIds().forEach(empid=>{
 // get all firstnmaes from emp loop and print the department names for respective first name
 
 
-employee.getAllEmpNames().forEach(name => {
+employeeInversify.getAllEmpNames().forEach(name => {
     const emp = employees.find(emp => emp.name === name);
     if (emp) {
-        const departmentName = departmentobj.getDepartmentNameById(emp.departmentId);
+        const departmentName = departmentInversify.getDepartmentNameById(emp.departmentId);
         console.log(`First name: ${name.split(' ')[0]}, Department name: ${departmentName}`);
     }
 });
@@ -33,10 +39,10 @@ employee.getAllEmpNames().forEach(name => {
 // for 3rd question 
 //// get all positions from emp loop and print the department names for respective first name
 
-employee.getAllEmpPositions().forEach(position => {
+employeeInversify.getAllEmpPositions().forEach(position => {
     const emp = employees.find(emp => emp.position === position);
     if (emp) {
-        const departmentName = departmentobj.getDepartmentNameById(emp.departmentId);
+        const departmentName = departmentInversify.getDepartmentNameById(emp.departmentId);
         console.log(`Position: ${position}, Department name: ${departmentName}`);
     }
 });

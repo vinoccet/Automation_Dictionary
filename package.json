@@ -1,0 +1,16 @@
+{
+  "name": "automation_dictionary",
+  "version": "1.0.0",
+  "description": "Objective of this project is to provide all the required resources for the onboarded resources and also a good reference one stop automation guide for existing resources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2"
+  }
+}

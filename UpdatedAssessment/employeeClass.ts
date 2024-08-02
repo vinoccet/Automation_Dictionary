@@ -1,6 +1,10 @@
 import { employees } from "./questions";
 import { empInterface } from "./interfaces";
+import { injectable } from "inversify";
+import "reflect-metadata";
 
+
+@injectable()
 export class employeeclass implements empInterface{
     getDepartmentIdByEmpId(empid: number): number {
 
